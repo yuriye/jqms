@@ -20,4 +20,7 @@ public class Ticket {
 
     private int priority = 5;
 
+    public TypeOfService getTypeOfService() {
+        return typeOfService;
+    }
 }

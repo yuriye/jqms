@@ -35,6 +35,10 @@ public class ServiceQueue {
         return serviceQueue;
     }
 
+    public void add(Ticket ticket) {
+        activeTickets.add(ticket);
+    }
+
     public static Map<Affiliate, Map<TypeOfService, ServiceQueue>> getInstances() {
         return instances;
     }
